@@ -13,12 +13,12 @@ export const GlobalProvider = ({ children }) => {
     });
   };
 
-   const addButton = (id) => {
-     dispatch({
-       type: "ADD_BUTTON",
-       payload: id,
-     });
-   };
+  const addButton = (id) => {
+    dispatch({
+      type: "ADD_BUTTON",
+      payload: id,
+    });
+  };
 
   return (
     <GlobalContext.Provider

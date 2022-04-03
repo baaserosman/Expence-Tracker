@@ -19,7 +19,6 @@ export const reducer = (state, action) => {
     case "ADD_BUTTON":
       return {
         ...state,
-
         transactions: [action.payload, ...state.transactions],
       };
 

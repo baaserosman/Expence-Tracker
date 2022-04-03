@@ -1,9 +1,9 @@
 import "./App.css";
-import AddTransaction from "./compenets/AddTransaction";
-import Balance from "./compenets/Balance";
-import Header from "./compenets/Header";
-import IncomeExpence from "./compenets/IncomeExpence";
-import TransactionList from "./compenets/TransactionList";
+import AddTransaction from "./components/AddTransaction";
+import Balance from "./components/Balance";
+import Header from "./components/Header";
+import IncomeExpence from "./components/IncomeExpence";
+import TransactionList from "./components/TransactionList";
 import { GlobalProvider } from "./context/GlobalState";
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
     <GlobalProvider>
       <div>
         <Header />
-
         <div className="container"></div>
         <Balance />
         <IncomeExpence />
