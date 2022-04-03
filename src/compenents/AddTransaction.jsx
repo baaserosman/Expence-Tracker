@@ -21,6 +21,7 @@ const AddTransaction = () => {
           <input
             type="text"
             id="text"
+            required
             placeholder="Enter text..."
             onChange={(e) => setText(e.target.value)}
           />
@@ -33,6 +34,7 @@ const AddTransaction = () => {
           <input
             type="number"
             id="amount"
+            required
             placeholder="Enter amount..."
             onChange={(e) => setAmount(e.target.value)}
           />
